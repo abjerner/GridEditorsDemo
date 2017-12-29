@@ -1,0 +1,45 @@
+﻿{
+  "gridEditors": [
+    {
+      "name": "Small image box",
+      "alias": "SmallImageBox",
+      "view": "/App_Plugins/SkriftImagePicker2/Views/GridEditor.html",
+      "icon": "icon-pictures-alt-2",
+      "config": {
+        "title": {
+          "mode": "required",
+          "placeholder": "Enter an image title",
+          "placeholder2": "Enter an image title"
+        },
+        "description": {
+          "mode": "optional",
+          "placeholder": "Optional: Enter a small image description",
+          "rows": 2
+        }
+      }
+    },
+    {
+      "name": "Large image box",
+      "alias": "LargeImageBox",
+      "view": "/App_Plugins/SkriftImagePicker2/Views/GridEditor.html",
+      "icon": "icon-pictures-alt-2",
+      "config": {
+        "title": {
+          "mode": "required",
+          "placeholder": "Enter an image title"
+        },
+        "description": {
+          "mode": "required",
+          "placeholder": "Enter an image description",
+          "rows": 5
+        }
+      }
+    }
+  ],
+  "javascript": [
+    "/App_Plugins/SkriftImagePicker/Scripts/GridEditorController.js"
+  ],
+  "css": [
+    "/App_Plugins/SkriftImagePicker/Styles/Default.css"
+  ]
+}

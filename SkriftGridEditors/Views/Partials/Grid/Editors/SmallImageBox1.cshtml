@@ -1,0 +1,32 @@
+﻿@using Umbraco.Web
+@using Umbraco.Web.Models
+@inherits Umbraco.Web.Mvc.UmbracoViewPage<dynamic>
+
+@{
+
+    int imageId = Model.value.imageId;
+
+    string title = Model.value.title;
+
+    string description = Model.value.description;
+
+}
+
+
+<div>
+    <div class="row clearfix">
+        <div class="col-md-12 column">
+            <div style="margin: 0 auto; max-width: 400px; background: #E7AFA3;">
+                <img src="@Umbraco.TypedMedia(imageId).GetCropUrl(400, imageCropMode: ImageCropMode.Crop)" style="max-width: 100%;"/>
+                <div style="padding: 10px 30px;">
+                    <div>
+                        <strong>@title</strong>
+                    </div>
+                    <div>
+                        @description
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

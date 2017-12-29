@@ -1,0 +1,7 @@
+.vs/
+packages/
+SkriftGridEditors/App_Data/cache/
+SkriftGridEditors/App_Data/NuGetBackup/
+SkriftGridEditors/App_Data/TEMP/
+SkriftGridEditors/bin/
+SkriftGridEditors/obj/

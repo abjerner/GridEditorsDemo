@@ -1,0 +1,58 @@
+﻿{
+  "propertyEditors": [
+    {
+      "alias": "Skift.ImagePicker",
+      "name": "Skrift Image Picker",
+      "editor": {
+        "view": "/App_Plugins/SkriftImagePicker2/Views/PropertyEditor.html",
+        "hideLabel": false,
+        "valueType": "JSON"
+      }
+    }
+  ],
+  "gridEditors": [
+    {
+      "name": "Small image box (2)",
+      "alias": "SmallImageBox2",
+      "view": "/App_Plugins/SkriftImagePicker2/Views/GridEditor.html",
+      "icon": "icon-pictures-alt-2",
+      "render": "/Views/Partials/Grid/Editors/SmallImageBox2.cshtml",
+      "config": {
+        "title": {
+          "mode": "required",
+          "placeholder": "Enter an image title",
+          "placeholder2": "Enter an image title"
+        },
+        "description": {
+          "mode": "optional",
+          "placeholder": "Optional: Enter a small image description",
+          "rows": 2
+        }
+      }
+    },
+    {
+      "name": "Large image box (2)",
+      "alias": "LargeImageBox2",
+      "view": "/App_Plugins/SkriftImagePicker2/Views/GridEditor.html",
+      "icon": "icon-pictures-alt-2",
+      "render": "/Views/Partials/Grid/Editors/LargeImageBox2.cshtml",
+      "config": {
+        "title": {
+          "mode": "required",
+          "placeholder": "Enter an image title"
+        },
+        "description": {
+          "mode": "required",
+          "placeholder": "Enter an image description",
+          "rows": 5
+        }
+      }
+    }
+  ],
+  "javascript": [
+    "/App_Plugins/SkriftImagePicker2/Scripts/Directive.js"
+  ],
+  "css": [
+    "/App_Plugins/SkriftImagePicker2/Styles/Default.css"
+  ]
+}

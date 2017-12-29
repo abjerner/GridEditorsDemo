@@ -1,0 +1,61 @@
+﻿.SkriftImagePicker {
+    padding: 10px;
+}
+
+.SkriftImagePicker > div {
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.SkriftImagePicker input,
+.SkriftImagePicker textarea {
+    width: 100%;
+}
+
+.SkriftImagePicker .option {
+    display: block;
+}
+
+.SkriftImagePicker .option > span {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.SkriftImagePicker .option + .option {
+    margin-top: 10px;
+}
+
+.SkriftImagePicker .image {
+    position: relative;
+    max-width: 500px;
+}
+
+.SkriftImagePicker .image .remove {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    color: red;
+    background: white;
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+    font-size: 24px;
+    line-height: 36px;
+    opacity: 0.5;
+    display: none;
+}
+
+.SkriftImagePicker .image:hover .remove {
+    display: block;
+}
+
+
+.SkriftImagePicker a.usky-editor-placeholder {
+    display: block;
+    border: 1px solid #bbbabf;
+    min-height: 130px;
+    background: #F3F3F5;
+}
