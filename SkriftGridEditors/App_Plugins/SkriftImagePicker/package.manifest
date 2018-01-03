@@ -5,6 +5,7 @@
       "alias": "SmallImageBox",
       "view": "/App_Plugins/SkriftImagePicker2/Views/GridEditor.html",
       "icon": "icon-pictures-alt-2",
+      "render": "/Views/Partials/Grid/Editors/SmallImageBox2.cshtml",
       "config": {
         "title": {
           "mode": "required",
@@ -23,6 +24,7 @@
       "alias": "LargeImageBox",
       "view": "/App_Plugins/SkriftImagePicker2/Views/GridEditor.html",
       "icon": "icon-pictures-alt-2",
+      "render": "/Views/Partials/Grid/Editors/LargeImageBox2.cshtml",
       "config": {
         "title": {
           "mode": "required",
